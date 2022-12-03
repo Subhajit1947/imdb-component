@@ -6,7 +6,7 @@ import Movies from './component/Movies';
 import Pagination from './component/Pagination'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Favorites from './component/Favorites';
-import Abc from './component/Abc';
+
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +20,7 @@ function App() {
           </>}
         />
         <Route path='/favorites' element={<Favorites/>}/>
-        <Route path='/abc' element={<Abc/>}/>
+        {/* <Route path='/abc' element={<Abc/>}/> */}
         
       </Routes>
     </BrowserRouter>
